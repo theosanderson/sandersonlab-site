@@ -56,6 +56,25 @@ const sections = [
     ],
   },
   {
+    title: 'Collaborations',
+    intro:
+      'We contribute to community efforts to improve the viral genomic sharing landscape.',
+    items: [
+      {
+        name: 'Pathoplexus',
+        url: 'https://pathoplexus.org',
+        desc: 'We are helping to build Pathoplexus, a new platform for sharing viral genome data.',
+        icon: <FaProjectDiagram />,
+      },
+      {
+        name: 'Loculus',
+        url: 'https://loculus.org',
+        desc: 'We are major contributors to Loculus, the software underlying Pathoplexus, alongside partners at the University of Basel, ETH Zurich and Swiss TPH.',
+        icon: <FaUsers />,
+      },
+    ],
+  },
+  {
     title: 'Supplemental tools',
     intro:
       'More tools!',
@@ -117,25 +136,7 @@ const sections = [
       },
     ],
   },
-  {
-    title: 'Collaborations',
-    intro:
-      'We contribute to community efforts to improve the viral genomic sharing landscape.',
-    items: [
-      {
-        name: 'Pathoplexus',
-        url: 'https://pathoplexus.org',
-        desc: 'We are helping to build Pathoplexus, a new platform for sharing viral genome data.',
-        icon: <FaProjectDiagram />,
-      },
-      {
-        name: 'Loculus',
-        url: 'https://loculus.org',
-        desc: 'We are major contributors to Loculus, the software underlying Pathoplexus, alongside partners at the University of Basel, ETH Zurich and Swiss TPH.',
-        icon: <FaUsers />,
-      },
-    ],
-  },
+  
 ];
 
 const Genomium = () => (
