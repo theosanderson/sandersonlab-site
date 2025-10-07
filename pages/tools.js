@@ -33,7 +33,7 @@ const sections = [
   {
     title: '',
     intro:
-      'We have developed a number of tools for genomic epidemiology.',
+      'Some of the software resources we have developed are listed below.',
     items: [
       {
         name: 'Taxonium',
@@ -152,9 +152,7 @@ const Genomium = () => (
       <div className="space-y-12 rounded-3xl bg-white px-6 py-10 shadow-2xl shadow-slate-200/60 ring-1 ring-slate-900/10 sm:px-10 sm:py-12">
         <header className="space-y-3 text-slate-900">
           <h1 className="text-3xl font-bold">Tools</h1>
-          <p className="text-base text-slate-600">
-            Some of the software resources we have developed are listed below.
-          </p>
+         
         </header>
 
         {sections.map((section, sectionIdx) => (
