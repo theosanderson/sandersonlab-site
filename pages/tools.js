@@ -31,20 +31,20 @@ const ToolEntry = ({ tool }) => (
 
 const sections = [
   {
-    title: 'Flagship tools',
+    title: '',
     intro:
-      'These are the tools that anchor much of our ongoing work, built to help researchers explore complex genomic datasets at scale.',
+      'We have developed a number of tools for genomic epidemiology.',
     items: [
       {
         name: 'Taxonium',
         url: '//taxonium.org',
-        desc: 'A high-performance phylogenetic tree explorer that lets users visualise millions of sequences with rich metadata overlays.',
+        desc: 'A high-performance phylogenetic tree explorer that lets users visualise trees with millions of sequences.',
         icon: <CgListTree />,
       },
       {
         name: 'Gensplore',
         url: '//gensplore.theo.io',
-        desc: 'An interactive browser for microbial reference genomes, combining GenBank annotations with intuitive filtering and search.',
+        desc: 'An interactive browser for annotated microbial genomes.',
         icon: <BiDna />,
       },
       {
@@ -58,12 +58,12 @@ const sections = [
   {
     title: 'Supplemental tools',
     intro:
-      'Utilities that complement our flagship projects by addressing specific analytical or visualisation challenges encountered in the lab.',
+      'More tools!',
     items: [
       {
         name: 'CovGlobe',
         url: '//covglobe.org',
-        desc: 'Maps SARS-CoV-2 lineages and their defining mutations onto an interactive globe for rapid geospatial interpretation.',
+        desc: 'Maps SARS-CoV-2 lineage changes onto an interactive map for rapid geospatial interpretation.',
         icon: <FaGlobeAfrica />,
       },
       {
@@ -75,7 +75,7 @@ const sections = [
       {
         name: 'PhenoPlasm',
         url: 'http://phenoplasm.org',
-        desc: 'Aggregates published phenotypes for malaria parasite genes, making it easy to cross-reference experimental findings.',
+        desc: 'Aggregates published phenotypes for malaria parasite genes.',
         icon: <FaDatabase />,
       },
       {
@@ -100,13 +100,13 @@ const sections = [
       {
         name: 'Hospital Medicines',
         url: '//hospitalmedicines.genomium.org',
-        desc: "Explores England’s hospital medicine usage data with filters for indications, trusts, and time periods.",
+        desc: "Explores England’s hospital medicine usage data.",
         icon: <FaHospital />,
       },
       {
         name: 'Lineage networks',
         url: '//lineage-networks.genomium.org/',
-        desc: 'Visualises similarities and differences between PANGO lineages, highlighting shared mutations and related clusters.',
+        desc: 'Visualises similarities and differences between PANGO lineages.',
         icon: <IoIosGitNetwork />,
       },
       {
@@ -120,18 +120,18 @@ const sections = [
   {
     title: 'Collaborations',
     intro:
-      'We actively contribute to broader community efforts, lending expertise and development time to projects led by partners.',
+      'We contribute to community efforts to improve the viral genomic sharing landscape.',
     items: [
       {
         name: 'Pathoplexus',
         url: 'https://pathoplexus.org',
-        desc: 'A collaborative pathogen genomics platform where we co-develop infrastructure for data sharing, curation, and analysis.',
+        desc: 'We are helping to build Pathoplexus, a new platform for sharing viral genome data.',
         icon: <FaProjectDiagram />,
       },
       {
         name: 'Loculus',
         url: 'https://loculus.org',
-        desc: 'An open collaboration advancing tools for contextualising pathogen evolution, with Sanderson Lab contributing visual analytics.',
+        desc: 'We are major contributors to Loculus, the software underlying Pathoplexus, alongside partners at the University of Basel, ETH Zurich and Swiss TPH.',
         icon: <FaUsers />,
       },
     ],
@@ -152,8 +152,7 @@ const Genomium = () => (
         <header className="space-y-3 text-slate-900">
           <h1 className="text-3xl font-bold">Tools</h1>
           <p className="text-base text-slate-600">
-            A curated overview of the software, utilities, and collaborations driven by the Sanderson Lab to support infectious
-            disease research and genomic surveillance.
+            Some of the software resources we have developed are listed below.
           </p>
         </header>
 
