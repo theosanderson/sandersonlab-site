@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 const Team = () => {
   const teamMembers = [
     { name: "Theo Sanderson", role: "Principal Investigator", image: "/theo.jpg" },
-   
+    { name: "Reem Hassan", role: "PhD Student (co-supervised with Daniel Goldhill)", image: "/placeholder-silhouette.svg" },
   ];
 
   return (
